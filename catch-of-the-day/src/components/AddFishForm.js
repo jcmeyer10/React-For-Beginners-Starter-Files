@@ -8,7 +8,7 @@ class AddFishForm extends React.Component{
 
   render(){
     return (
-      <form className="fish-edit" onSubmit={this.createFish}>
+      <form className="fish-edit" onSubmit={this.hypercreateFish}>
         <input type="text" placeholder="Fish Name" />
         <input type="text" placeholder="Fish Price" />
         <select>
